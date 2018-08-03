@@ -19,7 +19,6 @@ body{
     width: 1500px;
     height: 350px;
     margin: 0 auto;
-    background: url("../img/maps (1).png") ;  
 }
 .logo{
 	background-image: url("../img/logo.png");
@@ -39,7 +38,6 @@ body{
     margin-top: 50px;
     padding-top: 10px;
     padding-left: 5px;
-    background-color:  rgba(193, 193, 193, 0.8);
 }
 ul.icons>li{
     list-style-type: none;
@@ -51,7 +49,7 @@ ul.icons>li{
 }
 .main{ 
     width: 1500px;
-    height: 909px;
+    height: 2260px;
     margin-left: 165px;
     margin-right: 160px;
 }
@@ -78,11 +76,6 @@ ul.icons>li{
     font-weight: 700;
     line-height: 66px;
 }
-
-.menu>li:last-child{
-    background-color: #333;
-     color: #fff;
-}
 .menu>li>a{
 	color: #000000;
     font-size: 14px;
@@ -94,9 +87,6 @@ ul.icons>li{
     padding-left: 40px;
     display: block;
 }
-.menu>li>a:last-child{
-  
-}
 .menu>li>a:hover{
 	background-color: #333333;
     color: #ffffff;
@@ -106,7 +96,7 @@ ul.icons>li{
     font-family: Roboto, sans-serif;
     background-color: #f8f8f8;
     width: 870px;
-    height: 929px;
+    height: 2280px;
     margin-right: 124px;
     margin-top: -20px
 }
@@ -126,15 +116,12 @@ ul.icons>li{
     font-size: 12px;
     font-weight: 400;
     text-align: center;
-    float: left;   
+    float: left;
+    
 }
 .breadcrumbs-one>li>a{
     text-decoration: none;
     color:  #989898; 
-}
-.form{
-    width: 698px;
-    height: 485px;   
 }
 .crl{
 	clear: both;
@@ -144,29 +131,6 @@ ul.icons>li{
     height: 150px;
     background-color: #eaeaea;
     margin-left: 370px;
-}
-.brand{
-    background-color:  #ffffff;
-    width: 870px;
-    height: 160px;
-    margin-top: 62px;
-    margin-bottom: 123px;
-}
-.brends{
-    width: 870px;
-    height: 160px;
-}
-.brends>li{
-    height: 30px;
-    list-style-type: none;
-    float: left;
-    padding-top: 45px;
-    padding-left: 3px;
-}
-.brends>li>img{
-    width: px;
-    height: 70px; 
-    float: left;  
 }
 .internet{
     width: 1170px;
