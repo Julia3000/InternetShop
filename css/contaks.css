@@ -27,7 +27,7 @@ body{
 	height: 111px;
 	float: left;
 	margin-top: 24px;
-	margin-left:  326px;
+	margin-left:  226px;
     margin-bottom: 68px;
     margin-right: 20px;
 }
@@ -51,14 +51,14 @@ ul.icons>li{
 }
 .main{ 
     width: 1500px;
-    height: 909px;
+    height: 849px;
     margin-left: 165px;
     margin-right: 160px;
 }
 .left-said{
     width: 270px;
     height: 869px; 
-     margin-top: -20px; 
+    margin-top: -20px; 
     margin-left: 203px; 
     float: left;  
 }
@@ -130,7 +130,7 @@ ul.icons>li{
     font-family: Roboto, sans-serif;
     background-color: #f8f8f8;
     width: 870px;
-    height: 929px;
+    height: 869px;
     margin-right: 124px;
     margin-top: -20px
 }
@@ -152,13 +152,178 @@ ul.icons>li{
     text-align: center;
     float: left;   
 }
+.breadcrumbs-one>li:last-child{
+    background-color: #faef03;
+    padding-left: 3px;
+}
 .breadcrumbs-one>li>a{
     text-decoration: none;
     color:  #989898; 
 }
+.breadcrumbs-one>li>a:hover{
+    color: #3fccfd;
+}
+.input{
+    position: relative;
+    float: left;
+    width: 384px;
+    padding: 0 23px 0 10px;
+}
+.input:after{
+    position: absolute;
+    top: 57px;
+    right: 0;
+    width: 1px;
+    height: 330px;
+    content: '';
+    background-color: #e4e4e4;
+}
 .form{
-    width: 698px;
-    height: 485px;   
+    width: 870px;
+    height: 588px;   
+}
+.field{
+    margin-top: 34px;
+    width: 350px;
+    height: 46px;
+}
+label{
+   font-family: Roboto;
+    color:  #333333;
+    font-size: 12px;
+    font-weight: 400;  
+}
+#n,#ln,#a{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #efefef;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 350px;
+    height: 27px;
+    font-family: Roboto;
+    color:  #aaaaaa;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+}
+.message{
+    width: 350px;
+    height: 170px;
+    margin-top: 34px;
+}
+#text{
+    width: 350px;
+    height: 150px;
+    color:  #333333;
+    margin-top: 10px;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #efefef;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 34px;
+}
+.button{  
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff51f;
+    text-decoration: none;
+    padding-top: 9px; 
+    padding-left: 33px;  
+}
+.button:hover{
+    color: #000; 
+    background-color: #3fccfd;
+}
+.address{
+    float: left;
+    width: 486px;
+    padding: 0 0 0 23px;
+    padding-top: 38px;
+}
+.ad{
+    font-family: Roboto;
+    color:  #353535;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 14px;
+    text-align: left;
+}
+.adres{
+    width: 180px;
+    height: 134px; 
+    margin-top: 18px;   
+}
+.location{
+    font-family: Roboto;
+    color:  #777777;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;/
+    text-align: left;
+}
+#img{
+    padding-right: 10px;
+}
+.nomber{
+    margin-top: 21px;
+}
+.nomer{
+    width: 135px;
+    height: 14px;
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    padding-left: 11px;
+}
+.mail{
+    margin-top: 18px; 
+    width: 180px;
+    height: 26px;   
+}
+.mai1{
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 11px;
+    float: right;
+}
+#pochta{
+    padding-top: 3px;
+}
+.mai1:hover{
+    color: #3fccfd;
+}
+.help{
+    width: 292px;
+    height: 42px;
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-top: 33px;
 }
 .crl{
 	clear: both;
@@ -168,13 +333,13 @@ ul.icons>li{
     height: 150px;
     background-color: #eaeaea;
     margin-left: 370px;
+    margin-top: 122px;
 }
 .brand{
     background-color:  #ffffff;
     width: 870px;
     height: 160px;
     margin-top: 62px;
-    margin-bottom: 123px;
 }
 .brends{
     width: 870px;
@@ -237,7 +402,7 @@ ul.icons>li{
 }
 h3{
     width: 110px;
-    height: 13px
+    height: 13px;
     font-family: Raleway;
     color: #ffffff;
     font-size: 19px;
