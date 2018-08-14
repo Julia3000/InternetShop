@@ -12,14 +12,13 @@ body{
     margin: 0 auto;
 }
 .block_back{
-	background-image: url(../img/serf.jpg); 
+	background-image: url(../img/fon2.jpg); 
 	height: 350px;
 }
 .header{
     width: 1500px;
     height: 350px;
     margin: 0 auto;
-    background: url("../img/maps (1).png") ;  
 }
 .logo{
 	background-image: url("../img/logo.png");
@@ -27,7 +26,7 @@ body{
 	height: 111px;
 	float: left;
 	margin-top: 24px;
-	margin-left:  226px;
+	margin-left:  326px;
     margin-bottom: 68px;
     margin-right: 20px;
 }
@@ -39,7 +38,6 @@ body{
     margin-top: 50px;
     padding-top: 10px;
     padding-left: 5px;
-    background-color:  rgba(193, 193, 193, 0.8);
 }
 ul.icons>li{
     list-style-type: none;
@@ -51,7 +49,7 @@ ul.icons>li{
 }
 .main{ 
     width: 1500px;
-    height: 849px;
+    height: 2260px;
     margin-left: 165px;
     margin-right: 160px;
 }
@@ -63,7 +61,7 @@ ul.icons>li{
     float: left;  
 }
 .menu{
-	background-color: #26d2fc;
+    background-color: #26d2fc;
     width: 270px;
     font-family: serif;
     margin-bottom: 30px;   
@@ -83,11 +81,6 @@ ul.icons>li{
     font-weight: 700;
     line-height: 66px;
 }
-
-.menu>li:last-child{
-    background-color: #333;
-     color: #fff;
-}
 .menu>li>a{
 	color: #000000;
     font-size: 14px;
@@ -99,9 +92,6 @@ ul.icons>li{
     padding-left: 40px;
     display: block;
 }
-.menu>li:last-child>a{
-  color: #ffffff;
-}
 .menu>li>a:hover{
 	background-color: #333333;
     color: #ffffff;
@@ -110,7 +100,7 @@ ul.icons>li{
     width: 270px;
     height: 300px;  
     background-color:  #eaeaea;
-   float: left; 
+    float: left; 
 }
 .baner{
     font-family: Raleway;
@@ -130,7 +120,7 @@ ul.icons>li{
     font-family: Roboto, sans-serif;
     background-color: #f8f8f8;
     width: 870px;
-    height: 869px;
+    height: 2280px;
     margin-right: 124px;
     margin-top: -20px
 }
@@ -163,167 +153,167 @@ ul.icons>li{
 .breadcrumbs-one>li>a:hover{
     color: #3fccfd;
 }
-.input{
-    position: relative;
-    float: left;
-    width: 384px;
-    padding: 0 23px 0 10px;
-}
-.input:after{
-    position: absolute;
-    top: 57px;
-    right: 0;
-    width: 1px;
-    height: 330px;
-    content: '';
-    background-color: #e4e4e4;
-}
-.form{
+.product{
     width: 870px;
-    height: 588px;   
+    height: 570px;
+    margin-top: 53px;
 }
-.field{
-    margin-top: 34px;
-    width: 350px;
-    height: 46px;
-}
-label{
-   font-family: Roboto;
-    color:  #333333;
-    font-size: 12px;
-    font-weight: 400;  
-}
-#n,#ln,#a{
-    border-style: solid;
-    border-width: 1px;
-    border-color:  #efefef;
-    box-sizing: border-box;
-    background-color:  #ffffff;
-    width: 350px;
-    height: 27px;
-    font-family: Roboto;
-    color:  #aaaaaa;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: left;
-    margin-top: 10px;
-}
-.message{
-    width: 350px;
-    height: 170px;
-    margin-top: 34px;
-}
-#text{
-    width: 350px;
-    height: 150px;
-    color:  #333333;
-    margin-top: 10px;
-    text-align: left;
-    border-style: solid;
-    border-width: 1px;
-    border-color:  #efefef;
-    box-sizing: border-box;
-    background-color:  #ffffff;
-}
-.button{
-    width: 100px;
-    height: 30px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 400;
-    margin-top: 34px;
-}
-.button{  
-    font-family: Raleway, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #000;
-    background-color: #fff51f;
-    text-decoration: none;
-    padding-top: 9px; 
-    padding-left: 33px;  
-}
-.button:hover{
-    color: #000; 
-    background-color: #3fccfd;
-}
-.address{
+.item{
+    width: 374px;
+    height: 570px;
     float: left;
-    width: 486px;
-    padding: 0 0 0 23px;
-    padding-top: 38px;
 }
-.ad{
-    font-family: Roboto;
-    color:  #353535;
-    font-size: 18px;
-    font-weight: 900;
-    line-height: 14px;
-    text-align: left;
+.fotoimg>{
+    background-image: url(../img/t.jpg); 
+    width: 370px;
+    height: 370px;
 }
-.adres{
-    width: 180px;
-    height: 134px; 
-    margin-top: 18px;   
+.fotoimg>img{
+    width: 370px;
+    height: 370px;
+    overflow:hidden;
+    transition: 0.4s;
 }
-.location{
-    font-family: Roboto;
-    color:  #777777;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;/
-    text-align: left;
+.fotoimg>img:hover{
+    transform: scale(1.50, 1.50);
 }
-#img{
-    padding-right: 10px;
+.slider{
+    width: 374px;
+    height: 170px;
+    margin-top: 24px;
 }
-.nomber{
-    margin-top: 21px;
+.slider>li{
+    list-style-type: none;
+    float: left;
 }
-.nomer{
-    width: 135px;
-    height: 14px;
-    font-family: Roboto;
-    color:  #333333;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 20.8px;
-    text-align: left;
-    padding-left: 11px;
+.slider>li>a>img{
+    width: 123px;
+    height: 170px;
+    padding-right: 5px; 
+    overflow:hidden;
+    transition: 0.4s;
 }
-.mail{
-    margin-top: 18px; 
-    width: 180px;
-    height: 26px;   
+.slider>li>a>img:hover{
+    transform: scale(1.50, 1.50);
 }
-.mai1{
-    font-family: Roboto;
-    color:  #333333;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.8px;
-    text-decoration: underline;
-    text-align: left;
-    padding-left: 11px;
+.description{
+    width: 454px;
+    height: 362px;
     float: right;
 }
-#pochta{
-    padding-top: 3px;
+.names{
+    width: 185px;
+    height: 17px;
+    font-family: Roboto;
+    color:  #353535;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 53px;
 }
-.mai1:hover{
-    color: #3fccfd;
+.price{
+    width: 91px;
+    height: 16px;
+    font-family: Roboto;
+    color:  #111111;
+    font-size: 21.99px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: left;
+    line-height: 20px;
 }
-.help{
-    width: 292px;
-    height: 42px;
+hr{
+    background-color:  rgba(51, 51, 51, 0.1);
+    width: 390px;
+    height: 1px;
+    border: 0;
+    margin-top: 27px; 
+}
+.quick{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    width: 99px;
+    height: 11px;
+    font-family: Roboto;
+    color:  #353535;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.texter{
+    width: 438px;
+    height: 59px;
+    font-family: Roboto;
+    color:  #707070;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+a.add{
+    text-decoration: none;
+    background-color:  #fb4d01;
+    width: 130px;
+    height: 48px;
+    padding: 15px;
+    margin-left: 130px; 
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 15.99px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: left;
+    transform: scaleY(1.0008);
+    position: center;
+}
+.add:hover{
+    background-color:  #26d2fc;
+}
+.under-description{
+    width: 871px;
+    height: 269px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin: 20px 0;
+    padding: 1px;
+    position: relative;
+    margin-top: 76px;
+}
+.title{
+    background-color:  #26d2fc;
+    width: 160px;
+    height: 35px;
     font-family: Roboto;
     color:  #333333;
-    font-size: 14px;
+    font-size: 10.91px;
     font-weight: 400;
-    line-height: 14px;
     text-align: left;
-    margin-top: 33px;
+    left: 19px;
+    padding-top: 13px;
+    padding-left: 18px;
+    position: absolute;
+    top:-35px;
+}
+.bg{
+    background: none;
+    padding: 22px 13px 21px 13px;
+    font-family: Verdana;
+    color:  #808080;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+}
+.bg>p{
+    margin-top: 20px;
+}
+.bg>ul{
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.bg>ul>li{
+    list-style: none;
 }
 .crl{
 	clear: both;
@@ -333,29 +323,6 @@ label{
     height: 150px;
     background-color: #eaeaea;
     margin-left: 370px;
-    margin-top: 122px;
-}
-.brand{
-    background-color:  #ffffff;
-    width: 870px;
-    height: 160px;
-    margin-top: 62px;
-}
-.brends{
-    width: 870px;
-    height: 160px;
-}
-.brends>li{
-    height: 30px;
-    list-style-type: none;
-    float: left;
-    padding-top: 45px;
-    padding-left: 3px;
-}
-.brends>li>img{
-    width: px;
-    height: 70px; 
-    float: left;  
 }
 .internet{
     width: 1170px;
@@ -401,11 +368,11 @@ label{
     min-height: 100%;
 }
 h3{
-    width: 111px;
-    height: 13px;
+    width: 110px;
+    height: 13px
     font-family: Raleway;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 700;
     text-align: left;
     margin-bottom: 8px;
