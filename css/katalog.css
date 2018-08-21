@@ -185,7 +185,7 @@ a.add{
     width: 100px;
     height: 18px;
     padding: 10px;
-    margin-left: 80px; 
+    margin-left: 35px; 
     font-family: Roboto;
     color:  #ffffff;
     font-size: 13px;
@@ -203,7 +203,6 @@ a.add{
 }
 .pro1:hover{
     transform: scale(1.50, 1.50);
-      -webkit-transform: 1.50;
 }
 .blok{
     background-color: #ffffff;
