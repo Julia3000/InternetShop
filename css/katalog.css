@@ -162,6 +162,16 @@ ul.icons>li{
     float: left;
     position: relative;
 }
+.pro1:before{
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border: 23px solid transparent;
+        border-top: 23px solid #e24; 
+        border-left: 23px solid #e24;
+        position: absolute;
+}
 .pro1>a{
     padding-left: 4px;
 }
